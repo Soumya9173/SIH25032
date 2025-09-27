@@ -1,0 +1,42 @@
+# Java / Maven / Gradle
+/target/
+/build/
+/out/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Spring Boot
+.spring-
+
+# Environment/Secrets
+.env
+.env.local
+*.env
+
+# Local configuration that may contain secrets
+# Keep your real application.properties local only
+/src/main/resources/application.properties
+
+# Other
+node_modules/
+
+# Local helper/test scripts
+# Keep your personal copies untracked
+/test-api-endpoints.ps1
